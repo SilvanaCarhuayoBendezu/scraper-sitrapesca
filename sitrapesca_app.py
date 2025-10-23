@@ -6,7 +6,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
-fecha_hoy = datetime.now().strftime("%d/%m/%Y") + " 00:00"
+#fecha_hoy = datetime.now().strftime("%d/%m/%Y") + " 00:00"
+fecha_hoy = '25/04/2025 00:00'
 
 DOWNLOAD_DIR = os.path.abspath(os.environ.get("DOWNLOAD_DIR", "./downloads"))
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
