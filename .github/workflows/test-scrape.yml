@@ -32,7 +32,7 @@ jobs:
           DOWNLOAD_DIR: ${{ github.workspace }}/downloads
         run: |
           mkdir -p "$DOWNLOAD_DIR"
-          python scrape_sitrap.py
+          python sitrapesca_app.py
           echo "Archivos descargados:"
           ls -lah "$DOWNLOAD_DIR" || true
 
